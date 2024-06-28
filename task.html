@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./task.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary row m-0">
+            <div class="container-fluid col-1g-12 col-md-12 col-sm-6 col-0">
+                <div class="gap"></div>
+                <a class="navbar-brand header" href="#">
+                    <img src="./assets/mediora.webp" alt="logo" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="gap"></div>
+
+                <div class="collapse navbar-collapse justify-content-center " id="navbarNavDropdown">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Who We Are</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                What We Do
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Properties
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CSR</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Media Center</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+
+                        <form class="d-flex" role="login">
+                            <button class="btn bg-primary text-white rounded-pillbtn navbtn"
+                                type="submit">Login/Register</button>
+                        </form>
+                    </ul>
+                </div>
+            </div>
+            <div class="gap"></div>
+
+        </nav>
+
+    </header>
+    <section class="main">
+        <div class="main1 col-1g-3 col-md-12 col-sm-12">
+            <h1>FIND YOUR FUTURE <br> DREAM HOME</h1><br>
+            <p>We have the most listings and constant updates.Best listings and constant <br>updates you'll never miss
+                out!</p>
+        </div>
+        <div class="main2 col-1g-6 col-md-12 col-sm-12">
+            <aside class="searching col-lg-6 col-md-6">
+                <div class="buttons-search">
+                    <ul class="nav nav-tabs col-lg-12" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="for-rent-tab" href="#for-rent" role="tab"
+                                aria-controls="for-rent" aria-selected="true">For Rent</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link false-item" id="for-sale-tab" href="#for-sale" role="tab"
+                                aria-controls="for-sale" aria-selected="false">For Sale</a>
+                        </li>
+                    </ul>
+                    <div class="parent-for-aside">
+                        <div class="main-aside d-flex">
+                            <div class="child-aside">
+                                <span>Types</span>
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle">
+                                        All Types
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="child-aside">
+                                <span>Cities</span>
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1">
+                                        All Cities
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="main-sec-aside d-flex">
+                            <div class="child-aside">
+                                <span>Areas</span>
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle">
+                                        All Areas
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="child-aside">
+                                <span>Bedrooms</span>
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1">
+                                        01
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="child-aside">
+                                <span>Bath</span>
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1">
+                                        01
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-third-aside">
+                            <div class="container child-aside2">
+                                <label for="price-range">Price range</label>
+                                <span>OMR 0 to OMR 5,000</span>
+                            </div>
+                            <div class="container">
+                                <input type="range" class="form-control-range" id="price-range">
+                            </div>
+                        </div>
+                        <div class="container fourth-aside">
+                            <img src="./assets/add icon.svg" alt="add">
+                            <span class="ads">Advanced Search</span>
+                            <button class="btn-search">Search</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </aside>
+        </div>
+
+    </section>
+    <div class="building">
+        <div class="building1">
+            <div class="position1"><img src="./assets/image3.png" alt="independance day"></div>
+            <div class="position2">
+                <div class="loc-img"><img src="./assets/location icon.png" alt=""></div>
+                <div class="loc-data">
+                    <h6>Easy to find your dream <br>property</h6>
+                </div>
+            </div>
+        </div>
+        <div style="width: 40px;"></div>
+        <div class="about">
+
+            <h1>About Us</h1>
+            <p>The largest and only one-stop-shop for the complete range of real estate products and services in Oman,
+                our team of over 150 skilled and experienced professionals are always there to help you with real estate
+                solutions.
+            </p>
+            <p> We leverage our decades of experience, expertise and knowledge in different areas to bring you greater
+                value. Whatever your real estate requirements, we are there to offer you seamless and integrated service
+                that is second to none.</p>
+            <form class="d-flex" role="login">
+                <button class="btn bg-primary text-white rounded-pillbtn- hover" type="submit">Know More About
+                    Us</button>
+            </form>
+
+        </div>
+
+    </div>
+    <div class="rent-div">
+        <div>
+            <h3>Featured For Rent</h3>
+        </div>
+        <div>
+            <form class="d-flex" role="login">
+                <button class="btn bg-primary text-white rounded-pillbtn- hover" type="submit" id="butn">See All
+                    Properties</button>
+            </form>
+        </div>
+    </div>
+    
+         <div class="card1">
+            <div class="card2">
+                <div class="img1">
+                    <div class="head-button">
+                        <button type="button" class="btn btn-primary icon1" id="icon1">Featured</button>
+                        <button type="button" class="btn btn-info icon2">For Rent</button>
+                    </div>
+                    <div class="icons-div">
+                        <img id="heartIcon" style="margin-right: 10px;" src="./assets/heart icon.png" alt="">
+                        <img id="anotherIcon" src="./assets/icon.png" alt="">
+                    </div>
+    
+                    <div class="data-div">
+                        <p>Al Mir Building – Showroom For Rent</p>
+                        <p>OMR 1,500 <span>/per month</span></p>
+                    </div>
+                </div>
+                <div class="img2">
+                    <div class="head-button">
+                        <button type="button" class="btn btn-primary icon1">Featured</button>
+                        <button type="button" class="btn btn-info icon2">For Rent</button>
+                    </div>
+                    <div class="icons-div">
+                        <img id="heartIcon1" style="margin-right: 10px;" src="./assets/heart icon.png" alt="">
+                        <img id="anotherIcon1" src="./assets/icon.png" alt="">
+                    </div>
+    
+                    <div class="data-div">
+                        <p>Al Mir Building – Showroom For Rent</p>
+                        <p>OMR 1,500 <span>/per month</span></p>
+                    </div>
+                </div>
+                <div class="img3">
+                    <div class="head-button">
+                        <button type="button" class="btn btn-primary icon1">Featured</button>
+                        <button type="button" class="btn btn-info icon2">For Rent</button>
+                    </div>
+                    <div class="icons-div">
+                        <img id="heartIcon2" style="margin-right: 10px;" src="./assets/heart icon.png" alt="">
+                        <img id="anotherIcon2" src="./assets/icon.png" alt="">
+                    </div>
+    
+                    <div class="data-div">
+                        <p>Al Mir Building – Showroom For Rent</p>
+                        <p>OMR 1,500 <span>/per month</span></p>
+                    </div>
+                </div>
+                <div class="img4">
+                    <div class="head-button">
+                        <button type="button" class="btn btn-primary icon1">Featured</button>
+                        <button type="button" class="btn btn-info icon2">For Rent</button>
+                    </div>
+                    <div class="icons-div">
+                        <img id="heartIcon3" style="margin-right: 10px;" src="./assets/heart icon.png" alt="">
+                        <img id="anotherIcon3" src="./assets/icon.png" alt="">
+                    </div>
+    
+                    <div class="data-div">
+                        <p>Al Mir Building – Showroom For Rent</p>
+                        <p>OMR 1,500 <span>/per month</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card2">
+                <div class="img5">
+                    <div class="head-button">
+                        <button type="button" class="btn btn-primary icon1">Featured</button>
+                        <button type="button" class="btn btn-info icon2">For Rent</button>
+                    </div>
+                    <div class="icons-div">
+                        <img id="heartIcon4" style="margin-right: 10px;" src="./assets/heart icon.png" alt="">
+                        <img id="anotherIcon4" src="./assets/icon.png" alt="">
+                    </div>
+    
+                    <div class="data-div">
+                        <p>Al Mir Building – Showroom For Rent</p>
+                        <p>OMR 1,500 <span>/per month</span></p>
+                    </div>
+                </div>
+                <div class="img6">
+                    <div class="head-button">
+                        <button type="button" class="btn btn-primary icon1">Featured</button>
+                        <button type="button" class="btn btn-info icon2">For Rent</button>
+                    </div>
+                    <div class="icons-div">
+                        <img id="heartIcon5" style="margin-right: 10px;" src="./assets/heart icon.png" alt="">
+                        <img id="anotherIcon5" src="./assets/icon.png" alt="">
+                    </div>
+    
+                    <div class="data-div">
+                        <p>Al Mir Building – Showroom For Rent</p>
+                        <p>OMR 1,500 <span>/per month</span></p>
+                    </div>
+                </div>
+                <div class="img7">
+                    <div class="head-button">
+                        <button type="button" class="btn btn-primary icon1">Featured</button>
+                        <button type="button" class="btn btn-info icon2">For Rent</button>
+                    </div>
+                    <div class="icons-div">
+                        <img id="heartIcon6" style="margin-right: 10px;" src="./assets/heart icon.png" alt="">
+                        <img id="anotherIcon6" src="./assets/icon.png" alt="">
+                    </div>
+    
+                    <div class="data-div">
+                        <p>Al Mir Building – Showroom For Rent</p>
+                        <p>OMR 1,500 <span>/per month</span></p>
+                    </div>
+                </div>
+                <div class="img8">
+                    <div class="head-button">
+                        <button type="button" class="btn btn-primary icon1">Featured</button>
+                        <button type="button" class="btn btn-info icon2">For Rent</button>
+                    </div>
+                    <div class="icons-div">
+                        <img id="heartIcon7" style="margin-right: 10px;" src="./assets/heart icon.png" alt="">
+                        <img id="anotherIcon7" src="./assets/icon.png" alt="">
+                    </div>
+    
+                    <div class="data-div">
+                        <p>Al Mir Building – Showroom For Rent</p>
+                        <p>OMR 1,500 <span>/per month</span></p>
+                    </div>
+                </div>
+            </div>
+    
+        </div> 
+    <section class="estate-company">
+        <div class="estate-head">
+            <h2>We aspire to be oman's most admired real <br> estate company</h2>
+        </div>
+        <div class="details">
+            <div style="display: flex;text-align: center; flex-direction: column;">
+                <h3 style="color: white;">45</h3>
+                <h4 style="color: white;">Years in Business</h4>
+            </div>
+            <div style="display: flex;text-align: center; flex-direction: column;">
+                <h3 style="color: white;">4,000,000/sqf</h3>
+                <h4 style="color: white;">constructed</h4>
+            </div>
+            <div style="display: flex;text-align: center; flex-direction: column;">
+                <h3 style="color: white;">2,500+</h3>
+                <h4 style="color: white;">units under management</h4>
+            </div>
+            <div style="display: flex;text-align: center; flex-direction: column;">
+                <h3 style="color: white;">OMR100,000,000</h3>
+                <h4 style="color: white;">Assets under management</h4>
+            </div>
+            <div style="display: flex;text-align: center; flex-direction: column;">
+                <h3 style="color: white;">3,000</h3>
+                <h4 style="color: white;">Valuations per year</h4>
+            </div>
+
+        </div>
+    </section>
+    <div class="rent-div">
+        <div>
+            <h3>Featured For Sale</h3>
+        </div>
+        <div>
+            <form class="d-flex" role="login">
+                <button class="btn text-white rounded-pillbtn- hover" type="submit" id="butn">See All
+                    Properties</button>
+            </form>
+        </div>
+    </div>
+    <div class="card1">
+        <div class="card4">
+
+            <div class="img9">
+                <div class="head-button">
+                    <button type="button" class="btn btn-primary icon1">Featured</button>
+                    <button type="button" class="btn btn-info text-white icon2">For Rent</button>
+                </div>
+                <div class="icon-div"><img style="margin-right: 10px;" src="./assets/heart icon.png" alt=""> <img
+                        src="./assets/icon.png" alt=""></div>
+
+                <div class="datas-div">
+                    <p>Al Mir Building – Showroom For Rent</p>
+                    <p>OMR 1,500 <span>/per month</span></p>
+                </div>
+            </div>
+            <div class="img9">
+                <div class="head-button">
+                    <button type="button" class="btn btn-primary icon1">Featured</button>
+                    <button type="button" class="btn btn-info text-white icon2">For Rent</button>
+                </div>
+                <div class="icon-div"><img style="margin-right: 10px;" src="./assets/heart icon.png" alt=""> <img
+                        src="./assets/icon.png" alt=""></div>
+
+                <div class="datas-div">
+                    <p>Al Mir Building – Showroom For Rent</p>
+                    <p>OMR 1,500 <span>/per month</span></p>
+                </div>
+            </div>
+            <div class="img9">
+                <div class="head-button">
+                    <button type="button" class="btn btn-primary icon1">Featured</button>
+                    <button type="button" class="btn btn-info text-white icon2">For Rent</button>
+                </div>
+                <div class="icon-div"><img style="margin-right: 10px;" src="./assets/heart icon.png" alt=""> <img
+                        src="./assets/icon.png" alt=""></div>
+
+                <div class="datas-div">
+                    <p>Al Mir Building – Showroom For Rent</p>
+                    <p>OMR 1,500 <span>/per month</span></p>
+                </div>
+            </div>
+
+        </div>
+        <section class="card1">
+
+            <div>
+                <h2 style="font-weight: bold;">From Our Blogs</h2>
+            </div>
+            <div class="blogs">
+                <div class="blogs1">
+                    <div class="blogs-sub1"><img class="imgtag" src="./assets/building9.png" alt=""></div>
+                    <div class="mt-3 blogs-sub2">
+                        <p style="color: blue;">july 2,2020</p>
+                        <h5>Oil price fall and real estate</h5>
+                        <p style="opacity: 0.6;">Oil prices have dropped significantly in the last year.How has the real
+                            estate in the Oman reacted and what does the future hold?.....</p>
+                    </div>
+                </div>
+                <div class="blogs1">
+                    <div class="blogs-sub1"><img class="imgtag" src="./assets/building10.png" alt=""></div>
+                    <div class=" mt-3 blogs-sub2">
+                        <p style="color: blue;">july 2,2020</p>
+                        <h5>Oil price fall and real estate</h5>
+                        <p style="opacity: 0.6;">Oil prices have dropped significantly in the last year.How has the real
+                            estate in the Oman reacted and what does the future hold?.....</p>
+                    </div>
+                </div>
+                <div class="blogs1">
+                    <div class="blogs-sub1"><img class="imgtag" src="./assets/building11.png" alt=""></div>
+                    <div class="mt-3 blogs-sub2">
+                        <p style="color: blue;">july 2,2020</p>
+                        <h5>Oil price fall and real estate</h5>
+                        <p style="opacity: 0.6;">Oil prices have dropped significantly in the last year.How has the real
+                            estate in the Oman reacted and what does the future hold?.....</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <footer>
+            <div class="footer-1">
+                <div class="foot-img"><img style="height: 30px; width: 150px;" src="./assets/mediora.webp" alt=""></div>
+                <div>
+                    <p style="font-size: 13px; opacity: 0.6;color: white;">With an impressive record spanning over three
+                        decades,
+                        across two family generations, Al Habib’s success has been fueled by the sound reputation it has
+                        established over the years.
+                    </p>
+                    <p style="font-size: 13px; opacity: 0.6; color: white;">As the largest and only integrated realty
+                        company in Oman,
+                        offering a complete range of products and services – in property management, valuation,
+                        brokering, feasibility studies, contracting and property development – the Company has earned
+                        the confidence of the business community in Oman. They recognize that Al Habib’s extensive
+                        experience and knowhow assures them greater value and unmatched expertise.</p>
+                    <p style="font-size: 13px;color: white;">© Mediora 1978 - 2023, All Rights Reserved</p>
+                </div>
+            </div>
+            <div class="footer-1">
+                <div class="footer-2">
+                    <h6 style="color: white;">News Letter</h6>
+
+                    <div class="container-fluid container-bg">
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Enter your Email"
+                                aria-label="Search">
+                            <button class="btn btn-outline-success" style="color: white; border: 2px solid white;"
+                                type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                    </nav>
+                </div>
+
+                <div class="footer-3">
+
+                    <div class="footer-4">
+
+
+                        <div>
+                            <h6 style="color: white;">sitemap</h6>
+                            <p style="color: white;">who we Are</p>
+                            <p style="color: white;">What We Do</p>
+                            <p style="color: white;">Properties</p>
+                            <p style="color: white;">CSR</p>
+                        </div>
+                        <!-- <div style="width: 20px;"></div> -->
+                        <div class="ms-4">
+                            <p style="margin-top: 28px;color: white;">Media Center</p>
+                            <p style="color: white;">Blogs</p>
+                        </div>
+
+                    </div>
+
+                    <div class="footer-4">
+                        <div>
+                            <h6 style="color: white;">Contact info</h6>
+                            <p style="opacity: 0.6; color: white;">Location</p>
+                            <p style="opacity: 0.6;color: white;">Phone</p>
+                            <p style="opacity: 0.6;color: white;">Fax</p>
+                            <p style="opacity: 0.6;color: white;">Mail</p>
+                        </div>
+                        <div class="ms-4">
+                            <p p style="margin-top: 28px;color: white;">P.O Box: 2663, Ruwi 112</p>
+                            <p style="color: white;">(+968) 24702666</p>
+                            <p style="color: white;">(+968) 24703666</p>
+                            <p style="color: white;">info@mediora.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div style="display: flex;align-items:center ;justify-content: flex-end;">
+                    <div><img class="ms-4" src="./assets/whatsapp.png" alt="logo">
+                        <img class="ms-4" src="./assets/facebook.png" alt="logo">
+                        <img class="ms-4" src="./assets/twitter.png" alt="logo">
+                        <img class="ms-4" src="./assets/linkedin.png" alt="logo">
+                        <img class="ms-4" src="./assets/instagram.png" alt="logo">
+                    </div>
+                </div>
+            </div>
+
+
+
+        </footer>
+
+
+
+</body>
+    <script src="./task.js"></script>
+</html>
